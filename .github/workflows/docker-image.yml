@@ -47,7 +47,7 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v3.2.0
       with:
-        context: .
+        context: ./${{ matrix.version }}
         file: ./${{ matrix.version }}/${{ matrix.distro }}/Dockerfile
         platforms: linux/amd64
         pull: true
