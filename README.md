@@ -6,4 +6,4 @@ Fonctionnalités :
 - Identiques à https://hub.docker.com/_/nginx
 
 # Last push
-23/09/2025 11h26
+23/09/2025 13h33
