@@ -1,7 +1,7 @@
 FROM govpf/alpine:3
 
 LABEL govpf.fromimage="govpf/alpine:3"
-LABEL govpf.category="webserver"
+LABEL govpf.category="server"
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
 ENV NGINX_VERSION 1.23.2
