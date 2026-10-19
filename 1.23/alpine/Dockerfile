@@ -1,6 +1,6 @@
-FROM govpf/alpine:3
+FROM govpf/alpine:3.24
 
-LABEL govpf.fromimage="govpf/alpine:3"
+LABEL govpf.fromimage="govpf/alpine:3.24"
 LABEL govpf.category="server"
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
