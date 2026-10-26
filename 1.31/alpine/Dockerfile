@@ -4,7 +4,7 @@ LABEL govpf.fromimage="govpf/alpine:3.24"
 LABEL govpf.category="server"
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
-ENV NGINX_VERSION 1.23.2
+ENV NGINX_VERSION 1.31.8
 ENV NJS_VERSION   0.7.7
 ENV PKG_RELEASE   1
 
