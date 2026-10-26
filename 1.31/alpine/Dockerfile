@@ -5,7 +5,7 @@ LABEL govpf.category="server"
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
 ENV NGINX_VERSION 1.31.8
-ENV NJS_VERSION   0.7.7
+ENV NJS_VERSION 1.0.2
 ENV PKG_RELEASE   1
 
 RUN set -x \
