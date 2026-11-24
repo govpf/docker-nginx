@@ -4,9 +4,9 @@ LABEL govpf.fromimage="govpf/alpine:3.24"
 LABEL govpf.category="server"
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
-ENV NGINX_VERSION 1.31.8
-ENV NJS_VERSION 1.0.2
-ENV PKG_RELEASE   1
+ENV NGINX_VERSION=1.31.8
+ENV NJS_VERSION=1.0.2
+ENV PKG_RELEASE=1
 
 RUN set -x \
 # create nginx user/group first, to be consistent throughout docker variants
